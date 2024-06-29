@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { AllAuthors } from "./components/AllAuthors";
 import { AddNewAuthor } from "./components/AddNewAuthor";
+import "./style.css";
 
 const API_URL = "http://localhost:8000";
 
@@ -51,9 +52,9 @@ function App() {
 
   return (
     <>
-      <h1>Authors should appear here</h1>
-      <AllAuthors authors={authors} onDelete={onDeleteAuthorClickHandler} />
+      <h1>Authors</h1>
       <AddNewAuthor onAdd={onAddNewAuthorClickHandler} />
+      <AllAuthors authors={authors} onDelete={onDeleteAuthorClickHandler} />
     </>
   );
 }

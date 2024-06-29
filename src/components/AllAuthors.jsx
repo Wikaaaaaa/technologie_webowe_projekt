@@ -1,9 +1,10 @@
 export const AllAuthors = ({ authors = [], onDelete }) => (
-  <table>
+  <table className="author-table">
     <thead>
       <tr>
         <th>Author's name</th>
         <th>Author's surname</th>
+        <th>Available Actions</th>
       </tr>
     </thead>
     <tbody>

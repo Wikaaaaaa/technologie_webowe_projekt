@@ -1,0 +1,41 @@
+h1 {
+    font-size: 22px;
+    color: darkolivegreen;
+}
+fieldset {
+    border-radius: 15px;
+    width: 400px;
+}
+
+input {
+    padding: 5px;
+    width: 400px;
+    border: 0.5px solid;
+}
+
+.author-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+.author-table th, .author-table td {
+    border-bottom: 1px solid #ccc; /* Podkreślenie od dołu dla każdej komórki */
+    padding: 8px;
+    font-size: 15px;
+    text-align: left;
+  }
+
+label {
+    display: block;
+    font-size: 18px;
+}
+
+.author-table button {
+    display: block;
+    background-color: crimson;
+    color: white;
+}
+
+.fieldset button {
+    background-color: cornflowerblue;
+}
