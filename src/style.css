@@ -1,41 +1,70 @@
 h1 {
-    font-size: 22px;
-    color: darkolivegreen;
+    font-size: 24px;
+    color: blue;
+    font-family: 'Arial', sans-serif;
 }
+
 fieldset {
-    border-radius: 15px;
-    width: 400px;
+    border-radius: 10px;
+    width: 450px;
+    border: 1px solid blue;
+    padding: 15px;
+    background-color: #f9f9f9;
 }
 
 input {
-    padding: 5px;
-    width: 400px;
-    border: 0.5px solid;
+    padding: 8px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
 }
 
 .author-table {
     width: 100%;
     border-collapse: collapse;
-  }
-  
+    margin-top: 20px;
+}
+
 .author-table th, .author-table td {
-    border-bottom: 1px solid #ccc; /* Podkreślenie od dołu dla każdej komórki */
-    padding: 8px;
-    font-size: 15px;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    font-size: 16px;
     text-align: left;
-  }
+}
 
 label {
     display: block;
     font-size: 18px;
+    margin-bottom: 5px;
+    color: #333;
 }
 
 .author-table button {
-    display: block;
+    display: inline-block;
     background-color: crimson;
     color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.author-table button:hover {
+    background-color: darkred;
 }
 
 .fieldset button {
-    background-color: cornflowerblue;
+    background-color: rgb(100, 218, 89);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.fieldset button:hover {
+    background-color: royalblue;
 }
